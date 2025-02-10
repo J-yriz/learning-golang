@@ -5,6 +5,7 @@ import (
 )
 
 // testing the main variable function
+// variabel bisa menjadi global scope bila dideklarasikan di luar fungsi
 func Variable() {
 	var name string = "John Doe" // tidak wajib menuliskan tipe data dikarenkana golang sudah langsung mengenali tipe data dari nilai yang diberikan
 

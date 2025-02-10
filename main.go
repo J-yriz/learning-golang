@@ -10,12 +10,24 @@ import (
 func main() {
 	fmt.Println("Hello, this is the main function!")
 
-	// call the function from learning package
-	learning.DataType()
+	// call the data type function from learning package
+	// learning.DataType()
 
-	// call the function from learning package
-	learning.Variable()
+	// call the variable function from learning package
+	// learning.Variable()
 
-	// call the function from learning package
-	learning.Convertion()
+	// call the convertion function from learning package
+	// learning.Convertion()
+
+	// call the type declare function from learning package
+	// learning.TypeDeclare()
+
+	// call the perbandingan function from learning package
+	// learning.Perbandingan()
+
+	// call the array function from learning package
+	// learning.Array()
+
+	// call the slice type function from learning package
+	learning.SliceType()
 }
