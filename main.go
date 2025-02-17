@@ -3,12 +3,18 @@ package main
 import (
 	"fmt"
 
-	// "github.com/J-yriz/learning-golang/learning"
+	"github.com/J-yriz/learning-golang/learning/errorLearn"
+	// "github.com/J-yriz/learning-golang/learning/packinit"
+	// "github.com/J-yriz/learning-golang/learning/pointer"
+	// "github.com/J-yriz/learning-golang/learning/nill"
+	// ea "github.com/J-yriz/learning-golang/learning"
 	// "github.com/J-yriz/learning-golang/learning/array"
 	// "github.com/J-yriz/learning-golang/learning/statemament"
 	// "github.com/J-yriz/learning-golang/learning/looping"
 	// "github.com/J-yriz/learning-golang/learning/function"
-	"github.com/J-yriz/learning-golang/learning/dpr"
+	// "github.com/J-yriz/learning-golang/learning/dpr"
+	// "github.com/J-yriz/learning-golang/learning/struct_learning"
+	// typeassertion "github.com/J-yriz/learning-golang/learning/type_assertion" //betuk pemanggilan seperti di ts kita mengguakan as pada saat import
 )
 
 // testing the main function
@@ -31,7 +37,7 @@ func main() {
 	// learning.Perbandingan()
 
 	// call the array function from learning package
-	// learning.Array()
+	// array.Array()
 
 	// call the slice type function from learning package
 	// array.SliceType()
@@ -111,7 +117,49 @@ func main() {
 
 	// call the function panic function from dpr package
 	// dpr.PanicFunction(true)
+	// fmt.Println("Eksekusi tetap berjalan")
 
 	// call the function recovery function from dpr package
-	dpr.RecoveryFunction(false)
+	// dpr.RecoveryFunction(false)
+
+	// call the struct function from dpr package
+	// struct_learning.Struct()
+	// // use the struct from struct_learning package
+	// fmt.Println(struct_learning.Person{FirstName: "Fajar", LastName: "Aziz", Age: 19})
+
+	// call the struct method function from struct_learning package
+	// struct_learning.StructMethod()
+
+	// call the interface function from struct_learning package
+	// struct_learning.Interface()
+
+	// call the nill function from nill package
+	// nill.Nill()
+
+	// call the type assertion function from typeassertion package
+	// typeassertion.TypeAssertion()
+
+	// call the pointer function from pointer package
+	// pointer.PointerDan()
+
+	// call the art disk pointer function from pointer package
+	// pointer.ArteriskPointer()
+
+	// call the new pointer function from pointer package
+	// pointer.NewPointer()
+
+	// call the init package function from packinit package
+	// packinit.GetTestingData()
+
+	// call the error function from err package
+	// result, err := errorLearn.Pembagian(10, 0)
+	// if err != nil {
+	// 	fmt.Println("Error", err)
+	// } else {
+	// 	fmt.Println("Hasil", result)
+	// }
+
+	// call the error custom function from err package
+	errorLearn.ErrorCustom()
+
 }

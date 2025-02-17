@@ -1,0 +1,6 @@
+hanya mejelaskan saja, kurang tau ini benar atau tidak
+alsaan kenapa pada saat penamaan function digolang itu harus awali huruf besar
+karna untuk mencegah error, jika hruuf diawal golang menganggap itu sebagai exported
+jika awalnya kecil maka unexported. 
+Jadi kesimpulannya jika awalannya kecil itu tidak bisa digunakan diluar package akan tetapi bisa digunakan dipackage yang sama
+, jika diawali dengan huruf besar makan bisa di gunakan di keduanya
